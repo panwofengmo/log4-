@@ -1,0 +1,12 @@
+2019-06-08 15:58:40,049 [mylogger] [ERROR] error message
+2019-06-08 15:58:40,049 [mylogger] [INFO] info message
+2019-06-08 15:58:40,049 [mylogger] [WARN] warn message
+2019-06-08 15:58:40,049 [mylogger] [DEBUG] debug message
+2019-06-08 16:00:41,451 [mylogger] [ERROR] error message
+2019-06-08 16:00:41,452 [mylogger] [INFO] info message
+2019-06-08 16:00:41,452 [mylogger] [WARN] warn message
+2019-06-08 16:00:41,453 [mylogger] [DEBUG] debug message
+2019-06-08 16:04:17,185 [mylogger] [ERROR] error message
+2019-06-08 16:04:17,185 [mylogger] [INFO] info message
+2019-06-08 16:04:17,185 [mylogger] [WARN] warn message
+2019-06-08 16:04:17,185 [mylogger] [DEBUG] debug message
