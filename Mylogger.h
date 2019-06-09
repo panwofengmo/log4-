@@ -5,10 +5,23 @@
 #include <log4cpp/Category.hh>
 #include <log4cpp/PatternLayout.hh>
 #include <log4cpp/OstreamAppender.hh>
-
+#include <string>
 using namespace log4cpp;
+using std::string;
+
+#define prefix(msg) string(" [").append(__FILE__)\
+    .append(":").append(__FUNCTION__).append(":")\
+.append(std::to_string(__LINE__)).append("] ").append(msg)
+
+#define LogError(msg) OHF::Mylogger::getInstance()->error(prefix(msg).c_str());
+#define LogInfo(msg) OHF::Mylogger::getInstance()->info(prefix(msg).c_str());
+#define LogWarn(msg) OHF::Mylogger::getInstance()->warn(prefix(msg).c_str());
+#define LogDebug(msg) OHF::Mylogger::getInstance()->debug(prefix(msg).c_str());
+
 
 namespace OHF{
+
+
 class Mylogger
 {
 public:
